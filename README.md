@@ -38,8 +38,8 @@ No guns, no knife: you clear the village with stomps, ground pounds, dives, kick
 - [Updates](#updates)
 - [Uninstall](#uninstall)
 - [Troubleshooting](#troubleshooting)
-- [Reporting a problem](#reporting-a-problem)
 - [Known issues](#known-issues)
+- [Found a bug?](#found-a-bug)
 - [Privacy](#privacy)
 - [How it was made](#how-it-was-made)
 - [Credits and license](#credits-and-license)
@@ -63,6 +63,9 @@ aspettati bug e parti del gioco che con Mario non funzionano ancora bene. Va ben
 
 **Co-op online:** gioca con un amico, ognuno sul suo PC. Nella pagina **Co-op** del launcher uno sceglie **Host** e
 l'altro **Join**, e ognuno scrive il codice amico Steam dell'altro. Passa da Steam: non serve installare altro.
+
+**Hai trovato un bug?** Se vuoi, scrivilo nelle **Issues** di questa pagina (la scheda in alto): bastano due righe su
+cosa è successo e dove.
 
 Le nuove versioni si installano da sole (si può disattivare in Impostazioni → Aggiornamenti), mai mentre giochi.
 Per disinstallare: Impostazioni di Windows → App → FLUDD Village → Disinstalla.
@@ -132,7 +135,7 @@ Running the installer again over an older version updates it.
 | **Controls** | Every control, for PlayStation, Xbox and keyboard. |
 | **Co-op** | Play online with a friend ([see below](#co-op-online-with-a-friend)). |
 | **Settings** | The language, how the game plays, your games, the mod and updates ([see below](#settings-and-language)). |
-| **Logs** | What the launcher did, and what the mod wrote during your last game - copy or save them to report a problem. |
+| **Logs** | What the launcher did, and what the mod wrote during your last game - they stay on your PC. |
 
 The window can be made bigger, or full screen with **F11** (Esc goes back).
 
@@ -244,12 +247,6 @@ To take the mod out of the game by hand: delete `Resident Evil 4\Bin32\xinput1_3
 | **Co-op: "waiting for your friend" never ends** | Both of you: Steam running and signed in, Steam friends, the newest FLUDD Village, one on **Host** and one on **Join**, and each with the **other's** friend code. Change the Co-op page before pressing Play (the game reads it when it starts). |
 | **Co-op: "your friend has another version of the mod"** | Both update (the launcher does it by itself when it opens), then start again. |
 
-## Reporting a problem
-
-In the launcher, open **Logs** and copy or save the game's log, and send it with what
-happened, where (which room or part of the game) and roughly when. A short video helps a lot. The logs are in
-`%LOCALAPPDATA%\FluddVillage` (`mod.log` is started fresh every time the game starts, so copy it before playing again).
-
 ## Known issues
 
 FLUDD Village is a **work in progress**: not every part of Resident Evil 4 has been played through with Mario yet, so
@@ -259,6 +256,12 @@ some rooms, events, bosses and rides may not work well. What's known so far:
 - Mario can't push RE4's movable objects yet.
 - Only the North American Super Mario Sunshine disc (GMSE01) and the USA Super Mario 64 ROM are supported.
 - Resident Evil 4 (2005) on Steam only.
+
+## Found a bug?
+
+If you want, you can tell us in this project's **Issues** (the tab at the top of this page → **New issue**): a couple
+of lines on what happened and where is enough. Nothing is required, and the mod never sends anything by itself.
+Please don't paste your logs (they show your PC's folders) or links to downloads.
 
 ## Privacy
 
